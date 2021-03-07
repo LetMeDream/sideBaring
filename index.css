@@ -1,0 +1,34 @@
+.sideBar{
+    position:fixed;
+    background-color: #111;
+    height: 100%;
+    z-index:1;
+    padding-top: 60px;
+    overflow-x: hidden; /* Important; So it's content won't show if it's width 0 */
+    transition: 0.5s;
+    width:0;
+}
+
+.sideBar a{
+
+    display:block;
+
+}
+
+.sideBar button{
+    width:100%;
+}
+
+/* Close button */
+.sideBar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+#main{
+    transition:0.5s;
+}
